@@ -2,6 +2,7 @@
 body {
   font-family: Helvetica, sans-serif, monospace;
   font-weight: 200;
+  color: rgb(40, 51, 56);
 }
 
 /* style header */
@@ -79,17 +80,50 @@ header nav ul li a:hover {
   margin: 0 auto;
   display: flex;
   margin-top: 30px;
-  padding: 30px;
+  padding: 20px 0px 10px 30px;
 }
 
 .section-left {
   padding-right: 40px;
   padding-left: 120px;
+  border-right-style: solid;
+  border-right-color:gray;
+  text-align: right;
 }
 
 .section-right {
   padding: 10px 80px 20px 30px;
+  width: 100%;
 }
 
+h2 {
+  font-size: 50px;
+}
 
+.box-border {
+  border-style: solid;
+  border-color:aqua;
+}
+
+.big-box {
+  background-image: url('../images/wide-screen.png');
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.section-right h3 {
+  background: aqua;
+  width: 10%;
+  padding: 10px;
+  position: absolute;
+  margin-top: 280px;
+}
+
+.small-text {
+  font-size: small;
+  font-weight: lighter;
+}
+
+  
 
