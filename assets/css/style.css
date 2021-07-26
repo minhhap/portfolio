@@ -181,3 +181,57 @@ h2 {
     font-size: 22px;
 }
 
+/* responsive */
+@media screen and (max-width: 1200px) {
+  .section-left {
+    border-bottom: 3px solid;
+    border-right: 3px solid transparent; 
+  }
+
+  .section-left {
+    text-align: center;
+    width: 82%;
+  }  
+
+  .main-section {
+    flex-direction: column;
+    max-width: 80%;
+    margin-top: 5px;
+    margin-right: 140px;
+  }
+  
+  .section-right {
+    padding: 0px 0px 0px 0px;
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  /* header css */
+  header {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 0px;
+  }
+  header h1 {
+    padding: 20px;
+    text-align: center;
+  }
+  header nav ul {
+    justify-content: center;
+    margin-right: 40px;
+  }
+
+  .hero {
+    height: 200px;
+  }
+
+  .section-right h3 {
+    width: 15%;
+  }
+
+  .contact {
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+}
