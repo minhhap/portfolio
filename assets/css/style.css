@@ -67,7 +67,7 @@ header nav ul li a:hover {
 .hero h3 {
   background: aqua;
   margin-bottom: 50px;
-  margin-right: 80px;
+  margin-right: 60px;
   position: absolute;
   right: 10px;
   bottom: 10px;
@@ -89,6 +89,7 @@ header nav ul li a:hover {
   border-right-style: solid;
   border-right-color:gray;
   text-align: right;
+  width: 350px;
 }
 
 .section-right {
@@ -125,5 +126,58 @@ h2 {
   font-weight: lighter;
 }
 
-  
+.small-box {
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 48%;
+}
+.small-box:hover {
+  height: 210px;
+  width: 50%;
+}
+
+.small-box h3 {
+  position: absolute;
+  margin-top: 100px;
+}
+
+.row-one, .row-two {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.box-one {
+  background-image: url('../images/red-dots.png');
+  float: left;
+}
+
+.box-two {
+  background-image: url('../images/computer.png');
+  float: right;
+}
+
+.box-three {
+  background-image: url('../images/drink.jpeg');
+  float: left;
+}
+
+.box-four {
+  background-image: url('../images/run.png');
+  float: right;
+}
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+.contact-info a {
+    text-decoration: none;
+    border-bottom: 3px solid;
+    color: rgb(40, 51, 56);
+    padding: 10px;
+    font-size: 22px;
+}
 
