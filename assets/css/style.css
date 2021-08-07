@@ -167,6 +167,14 @@ h2 {
   background-image: url('../images/run.png');
   float: right;
 }
+
+a.fill-div {
+  display: block;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+}
+
 .contact-info {
     display: flex;
     justify-content: space-around;
