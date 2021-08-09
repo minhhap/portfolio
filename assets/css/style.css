@@ -107,7 +107,7 @@ h2 {
 }
 
 .big-box {
-  background-image: url('../images/wide-screen.png');
+  background-image: url('../images/redwood.jpeg');
   background-size: cover;
   background-position: center;
   height: 400px;
@@ -115,7 +115,7 @@ h2 {
 
 .section-right h3 {
   background: aqua;
-  width: 10%;
+  width: 12%;
   padding: 10px;
   position: absolute;
   margin-top: 280px;
