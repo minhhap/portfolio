@@ -110,6 +110,8 @@ h2 {
   background-image: url('../images/redwood.jpeg');
   background-size: cover;
   background-position: center;
+  margin-left: auto;
+    margin-right: auto;
   height: 400px;
 }
 
@@ -149,7 +151,7 @@ h2 {
 }
 
 .box-one {
-  background-image: url('../images/red-dots.png');
+  background-image: url('../images/leila.png');
   float: left;
 }
 
